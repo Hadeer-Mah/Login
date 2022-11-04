@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body style="background-color: #24353f;">
+    <div class="container text-center my-5 d-flex justify-content-center align-items-center">
+            <div class="w-75 p-5 mx-auto  shadow-lg my-5">
+                <h1 class="text-info fs-2">Smart Login System</h1>
+                <input type="text" name="" id="userName" class="form-control my-3" placeholder="Enter your Name">
+                <p id="requiredName" class="text-info d-none">name required</p>
+                <p id="usedName" class="text-info d-none">Already Used Name</p>
+                <input type="email" name="" id="email" class="form-control my-3" placeholder="Enter your Email">
+                <p id="requiredEmail" class="text-info d-none">Invalid Email</p>
+                <p id="usedEmail" class="text-info d-none">Already Used Email</p>
+                <input type="password" name="" id="password" class="form-control my-3" placeholder="Enter your Password">
+                <p id="requiredPassword" class="text-info d-none">password required</p>
+                <button class="btn btn-outline-info w-100 my-3" onclick="signUp()">Sign Up</button>
+                <p class="text-white">You have an account? <a href="index.html" class="text-white">Sign In</a></p>
+            </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

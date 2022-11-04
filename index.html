@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body style="background-color: #24353f;">
+    <div class="container text-center my-5 d-flex justify-content-center align-items-center">
+            <div class="w-75 p-5 mx-auto  shadow-lg my-5">
+                <h1 class="text-info fs-2">Smart Login System</h1>
+                <input type="email" name="" id="logEmail" class="form-control my-3" placeholder="Enter your Email">
+                <p id="noEmail" class="text-info d-none">Please enter Email</p>
+                <p id="wrongEmail" class="text-info d-none">Email not found</p>
+                <input type="password" name="" id="logPassword" class="form-control my-3" placeholder="Enter your Password">
+                <p id="noPassword" class="text-info d-none">Please enter Password</p>
+                <p id="wrongPassword" class="text-info d-none">Wrong Password</p>
+                <button class="btn btn-outline-info w-100 my-3" onclick="logIn()">Login</button>
+                <p class="text-white">Don’t have an account? <a href="signUp.html" class="text-white">Sign Up</a></p>
+            </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
